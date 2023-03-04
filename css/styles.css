@@ -15,9 +15,9 @@
 }
 .bloque-derecha {
   background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
-  border-radius: 50px;
   height: 1505px;
   left: 1100px;
   position: relative;
