@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
+
+* {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.bloqueIzquierdo {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  height: 1500px;
+  position: relative;
+  width: 1000px;
+}
+.bloque-derecha {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-radius: 50px;
+  height: 1505px;
+  left: 1100px;
+  position: relative;
+  top: -1259px;
+}
+body {
+  background-image: url("../img/Fondo.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.contenido-AboutMe {
+  color: #e7e4e3;
+  font-size: 30px;
+}
+dt {
+  color: #eab354;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+li,
+dd {
+  color: #e7e4e3;
+  font-size: 30px;
+}
+
+dd {
+  left: 50px;
+  position: relative;
+}
+
+.datosPersonales span {
+  color: #eab354;
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer h2 {
+  background-color: #262b2b;
+  color: #e7e4e3;
+  display: inline;
+  width: 10000px;
+}
+footer {
+  background-color: #262b2b;
+  text-align: center;
+}
+
+.foto-PagPrincipal {
+  background-color: #e7e4e3;
+  border-radius: 100%;
+  height: 300px;
+  left: 30px;
+  position: relative;
+  padding: 0.3%;
+  top: 20px;
+  width: 300px;
+}
+
+.fa-solid {
+  color: #eab354;
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+.titulos-main-index,
+.titulos-main-aboutMe {
+  background-color: #eab354;
+  border-radius: 50px;
+  color: #262b2b;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.institucion {
+  font-weight: bold;
+}
+
+.logoFooter1,
+.logoFooter {
+  color: #e7e4e3;
+  margin-right: 10px;
+  left: 20px;
+  position: relative;
+}
+
+input {
+  background-color: #eab354;
+  border-radius: 20px;
+  color: #262b2b;
+  font-size: 30px;
+  font-weight: bold;
+  left: 30px;
+  padding: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.inputVolver {
+  position: relative;
+  top: -13px;
+  width: 280px;
+}
+
+.titulo-PagPrincipal,
+.subtitulo-PagPrincipal {
+  color: #e7e4e3;
+  position: relative;
+  top: 300px;
+}
+
+.titulo-PagPrincipal {
+  font-size: 70px;
+  left: 750px;
+}
+.subtitulo-PagPrincipal {
+  color: #e7e4e3;
+  left: 660px;
+  font-size: 50px;
+}
+
+.titulo-AboutMe {
+  background-color: transparent;
+  color: #e7e4e3;
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+  top: 10px;
+}
