@@ -4,15 +4,6 @@
   font-family: "Comfortaa", sans-serif;
 }
 
-.bloqueIzquierdo {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 50px;
-  border-bottom-left-radius: 0%;
-  border-bottom-right-radius: 0%;
-  height: 1500px;
-  position: relative;
-  width: 1000px;
-}
 .bloque-derecha {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50px;
@@ -21,12 +12,23 @@
   height: 1505px;
   left: 1100px;
   position: relative;
-  top: -1259px;
+  top: -1535px;
+  width: 1030px;
 }
+.bloqueIzquierdo {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  height: 1500px;
+  position: relative;
+  width: 950px;
+}
+
 body {
   background-image: url("../img/Fondo.jpg");
   background-size: cover;
-  background-repeat: repeat;
+  
 }
 
 .contenido-AboutMe {
@@ -60,11 +62,11 @@ footer h2 {
   background-color: #262b2b;
   color: #e7e4e3;
   display: inline;
-  width: 10000px;
 }
 footer {
   background-color: #262b2b;
   text-align: center;
+  font-size:  20px;
 }
 
 .foto-PagPrincipal {
